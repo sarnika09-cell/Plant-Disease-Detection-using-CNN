@@ -1,4 +1,3 @@
-<img width="523" height="478" alt="Screenshot 2026-04-14 at 8 56 48 PM" src="https://github.com/user-attachments/assets/af9b14e0-680d-4f2e-84ed-f69d10d1b65f" />
 ![Python](https://img.shields.io/badge/Python-3.10-blue)
 ![TensorFlow](https://img.shields.io/badge/TensorFlow-DeepLearning-orange)
 ![Status](https://img.shields.io/badge/Status-Completed-success)
