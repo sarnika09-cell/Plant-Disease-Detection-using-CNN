@@ -8,7 +8,13 @@ The dataset used is the PlantVillage dataset, which contains labeled images of p
 
 - Type: Image dataset  
 - Classes: Multiple categories including Tomato, Potato, and Pepper diseases along with healthy leaves  
-- Structure: Images are organized into class-specific folders  
+- Structure: Images are organized into class-specific folders 
+
+The dataset is too large to be hosted on GitHub.
+
+You can download it from:
+https://your-google-drive-link
+
 
 ## Project Structure
 Plant-Disease-Detection-CNN/
