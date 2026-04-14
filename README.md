@@ -1,7 +1,17 @@
 # Plant-Disease-Detection-using-CNN
 
 ## Overview
-This project implements a Convolutional Neural Network (CNN) to detect plant diseases from leaf images. The model is trained on the PlantVillage dataset and is capable of classifying multiple plant diseases as well as healthy leaves.
+
+Plant diseases significantly affect agricultural productivity and crop yield. Early detection is essential to minimize losses.
+
+This project uses a Convolutional Neural Network (CNN) to automatically classify plant leaf images into different disease categories using the PlantVillage dataset.
+
+## Features
+- Image-based plant disease classification
+- Multi-class prediction (healthy and diseased leaves)
+- Deep learning using CNN
+- Confusion matrix for evaluation
+- Works on unseen test images
 
 ## Dataset
 The dataset used is the PlantVillage dataset, which contains labeled images of plant leaves.
@@ -10,28 +20,23 @@ The dataset used is the PlantVillage dataset, which contains labeled images of p
 - Classes: Multiple categories including Tomato, Potato, and Pepper diseases along with healthy leaves  
 - Structure: Images are organized into class-specific folders 
 
-The dataset is too large to be hosted on GitHub.
+Dataset is not included due to size limitations.
 
-You can download it from:
-[https://your-google-drive-link](https://drive.google.com/drive/folders/1nuOswgZP-DePt-4fejGuwCp337ZB9lxu?usp=drive_link)
-After downloading, place it in:
+get it from:
+[https://www.kaggle.com/datasets/emmarex/plantdisease](https://drive.google.com/drive/folders/1nuOswgZP-DePt-4fejGuwCp337ZB9lxu?usp=drive_link)
+
+Place it inside:
 dataset/PlantVillage/
 
 ## Project Structure
+
 Plant-Disease-Detection-CNN/
 │
-├── README.md
-├── requirements.txt
 ├── train.py
 ├── predict.py
-├── plant_disease_detection.ipynb
-├── dataset/
-│ └── PlantVillage/
-└── results/
- └──prediction_output.png
- └── confusion_matrix.png
-├── confusion_matrix.png
-└── sample_output.png
+├── requirements.txt
+├── README.md
+└── dataset/
 
 
 ## Technologies Used
@@ -77,22 +82,38 @@ Model performance is evaluated using a confusion matrix.
 
 - Diagonal elements represent correct predictions  
 - Off-diagonal elements represent misclassifications  
-- Higher diagonal values indicate better performance  
+- Higher diagonal values indicate better performance
+
+  ## How to Run
+
+1. Install dependencies
+pip install -r requirements.txt
+
+2. Train model
+python train.py
+
+3. Run prediction
+python predict.py
 
 ## Results
 The model achieves high accuracy in classifying plant diseases.
 
 ## Output Screenshots
-| Prediction Result | Confusion Matrix |
-|------------------|------------------|
-| <img width="444" height="491" alt="Screenshot 2026-04-14 at 8 20 52 PM" src="https://github.com/user-attachments/assets/630f6ba5-d18e-43c0-980a-a1f321702177" /> | <img width="516" height="432" alt="image" src="https://github.com/user-attachments/assets/ff9d788f-f79a-4a1b-b79b-dd443c78e2f4" /> |
+
+### Prediction Result
+<img width="444" height="491" alt="Screenshot 2026-04-14 at 8 20 52 PM" src="https://github.com/user-attachments/assets/630f6ba5-d18e-43c0-980a-a1f321702177" />
+
+### Confusion Matrix
+<img width="516" height="432" alt="image" src="https://github.com/user-attachments/assets/ff9d788f-f79a-4a1b-b79b-dd443c78e2f4" />
 
 Example prediction:
 - Predicted Class: Tomato Late Blight  
 - Confidence: 1.00  
 
 ## Conclusion
-The CNN-based model effectively detects plant diseases from leaf images. This approach can be used in agricultural applications for early disease detection and crop management.
+
+The CNN model successfully classifies plant diseases with high accuracy. 
+This system can assist farmers and researchers in early disease detection and improve agricultural productivity.
 
 ## Requirements
 Install dependencies using:
