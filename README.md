@@ -13,7 +13,7 @@ The dataset used is the PlantVillage dataset, which contains labeled images of p
 The dataset is too large to be hosted on GitHub.
 
 You can download it from:
-https://your-google-drive-link
+[https://your-google-drive-link](https://drive.google.com/drive/folders/1nuOswgZP-DePt-4fejGuwCp337ZB9lxu?usp=drive_link)
 
 
 ## Project Structure
