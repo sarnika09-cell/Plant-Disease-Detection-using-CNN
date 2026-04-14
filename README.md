@@ -1,3 +1,4 @@
+<img width="523" height="478" alt="Screenshot 2026-04-14 at 8 56 48 PM" src="https://github.com/user-attachments/assets/af9b14e0-680d-4f2e-84ed-f69d10d1b65f" />
 ![Python](https://img.shields.io/badge/Python-3.10-blue)
 ![TensorFlow](https://img.shields.io/badge/TensorFlow-DeepLearning-orange)
 ![Status](https://img.shields.io/badge/Status-Completed-success)
@@ -13,11 +14,12 @@ A deep learning project that detects plant diseases from leaf images using a Con
 
 Prediction Example:
 
-![Prediction Output](PASTE_YOUR_IMAGE_LINK)
+<img width="523" height="478" alt="Screenshot 2026-04-14 at 8 56 48 PM" src="https://github.com/user-attachments/assets/af9b14e0-680d-4f2e-84ed-f69d10d1b65f" />
 
 Confusion Matrix:
 
-![Confusion Matrix](PASTE_YOUR_IMAGE_LINK)
+<img width="516" height="432" alt="image" src="https://github.com/user-attachments/assets/a33c4bf0-5f5f-463b-9be4-4a095cfb291e" />
+
 
 ---
 
